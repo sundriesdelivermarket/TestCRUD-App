@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCRUD-API", "SimpleCRUD-API\SimpleCRUD-API.csproj", "{C145FCD8-9998-4AA6-8C92-89CF99E29A08}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBLogger", "..\..\TestCRUDApp\DBLogger\DBLogger.csproj", "{BAD3B04B-7539-444B-A855-AA51F79C7BE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi-App", "TestApi-App\TestApi-App.csproj", "{E0C0895D-BF8F-45B3-9004-84277DAA1040}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C145FCD8-9998-4AA6-8C92-89CF99E29A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C145FCD8-9998-4AA6-8C92-89CF99E29A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C145FCD8-9998-4AA6-8C92-89CF99E29A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C145FCD8-9998-4AA6-8C92-89CF99E29A08}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BAD3B04B-7539-444B-A855-AA51F79C7BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BAD3B04B-7539-444B-A855-AA51F79C7BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAD3B04B-7539-444B-A855-AA51F79C7BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAD3B04B-7539-444B-A855-AA51F79C7BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C0895D-BF8F-45B3-9004-84277DAA1040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C0895D-BF8F-45B3-9004-84277DAA1040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C0895D-BF8F-45B3-9004-84277DAA1040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C0895D-BF8F-45B3-9004-84277DAA1040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
